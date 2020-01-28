@@ -98,11 +98,12 @@ go
 --  exec    (@create_restore_logic) 
 select      (@create_restore_logic) for xml path (''), type
 ```
-By the way…
-Just found a bug… So here's the fix.
+
+<p>By the way… Just found a bug… So here's the fix.
 This will correct the 'name' & 'integer' error you might get when running this logic.
-Replace the old segment with this new segment:
-</p>      
+Replace the old segment with this new segment: </p>    
+
+
 ## SQL-Logic
 ```SQL
 1
